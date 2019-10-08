@@ -1,0 +1,1350 @@
+Archive member included because of file (symbol)
+
+c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy.o)
+                              build/kitronik_arcade_m4_J/flash_samd51.o (memcpy)
+c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+                              build/kitronik_arcade_m4_J/screen.o (memset)
+c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+                              build/kitronik_arcade_m4_J/cdc_enumerate.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+b_sharp_received    0x1               build/kitronik_arcade_m4_J/usart_sam_ba.o
+block_erased        0x40              build/kitronik_arcade_m4_J/flash_samd51.o
+timerHigh           0x4               build/kitronik_arcade_m4_J/utils.o
+j                   0x1               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+idx_rx_write        0x1               build/kitronik_arcade_m4_J/usart_sam_ba.o
+size_of_data        0x2               build/kitronik_arcade_m4_J/usart_sam_ba.o
+ctrlOutCache        0x44              build/kitronik_arcade_m4_J/cdc_enumerate.o
+length              0x4               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ptr                 0x4               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+command             0x1               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+fb                  0x5400            build/kitronik_arcade_m4_J/screen.o
+resetHorizon        0x4               build/kitronik_arcade_m4_J/utils.o
+idx_tx_read         0x1               build/kitronik_arcade_m4_J/usart_sam_ba.o
+i                   0x4               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+buffer_tx_usart     0x80              build/kitronik_arcade_m4_J/usart_sam_ba.o
+error_timeout       0x1               build/kitronik_arcade_m4_J/usart_sam_ba.o
+usb_endpoint_table  0x100             build/kitronik_arcade_m4_J/cdc_enumerate.o
+data                0x41              build/kitronik_arcade_m4_J/sam_ba_monitor.o
+mode_of_transfer    0x1               build/kitronik_arcade_m4_J/usart_sam_ba.o
+ptr_data            0x4               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+idx_rx_read         0x1               build/kitronik_arcade_m4_J/usart_sam_ba.o
+sp                  0x4               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+current_number      0x4               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+idx_tx_write        0x1               build/kitronik_arcade_m4_J/usart_sam_ba.o
+row_same            0x800             build/kitronik_arcade_m4_J/flash_samd51.o
+endpointCache       0x220             build/kitronik_arcade_m4_J/cdc_enumerate.o
+u32tmp              0x4               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+buffer_rx_usart     0x80              build/kitronik_arcade_m4_J/usart_sam_ba.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/flash_samd51.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/flash_samd51.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/flash_samd51.o
+ .text.flash_erase_block
+                0x00000000       0x20 build/kitronik_arcade_m4_J/flash_samd51.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/init_samd51.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/init_samd51.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/init_samd51.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/startup_samd51.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/startup_samd51.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/startup_samd51.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_open
+                0x00000000       0xb8 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_close
+                0x00000000        0xc build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_putc
+                0x00000000       0x14 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_getc
+                0x00000000       0x18 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_sharp_received
+                0x00000000       0x2c build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_is_rx_ready
+                0x00000000       0x10 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_readc
+                0x00000000       0x20 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_putdata
+                0x00000000       0x20 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_getdata
+                0x00000000       0x1c build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.getbytes
+                0x00000000       0x84 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.getPacket
+                0x00000000       0x9c build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_putdata_xmd
+                0x00000000      0x154 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text.usart_getdata_xmd
+                0x00000000       0xd0 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ COMMON         0x00000000      0x10c build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/screen.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/screen.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/screen.o
+ .text.print4   0x00000000       0x7c build/kitronik_arcade_m4_J/screen.o
+ .text.draw_hf2
+                0x00000000       0x2c build/kitronik_arcade_m4_J/screen.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/images.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/images.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/images.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/utils.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/utils.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/utils.o
+ .text.write_apa_byte
+                0x00000000       0x30 build/kitronik_arcade_m4_J/utils.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .text.USB_Read
+                0x00000000        0x8 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .text.AT91F_USB_SendZlp
+                0x00000000       0x18 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .text.reset_ep
+                0x00000000       0x30 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .text.stall_ep
+                0x00000000       0x24 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .text.cdc_is_rx_ready
+                0x00000000       0x18 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/fat.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/fat.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/fat.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/main.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/main.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/main.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/msc.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/msc.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/msc.o
+ .text.msc_reset
+                0x00000000       0x1c build/kitronik_arcade_m4_J/msc.o
+ .text.udd_ep_set_halt
+                0x00000000       0x14 build/kitronik_arcade_m4_J/msc.o
+ .text.udi_msc_csw_send
+                0x00000000       0x10 build/kitronik_arcade_m4_J/msc.o
+ .bss.mscReset  0x00000000        0x1 build/kitronik_arcade_m4_J/msc.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .text.sam_ba_monitor_init
+                0x00000000        0x4 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .text.sam_ba_putdata_term
+                0x00000000        0x4 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .text.call_applet
+                0x00000000       0x20 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/uart_driver.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/uart_driver.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/uart_driver.o
+ .text.uart_get_sercom_index
+                0x00000000       0x34 build/kitronik_arcade_m4_J/uart_driver.o
+ .text.uart_basic_init
+                0x00000000       0x58 build/kitronik_arcade_m4_J/uart_driver.o
+ .text.uart_disable
+                0x00000000       0x10 build/kitronik_arcade_m4_J/uart_driver.o
+ .text.uart_write_byte
+                0x00000000        0xc build/kitronik_arcade_m4_J/uart_driver.o
+ .text.uart_read_byte
+                0x00000000       0x2c build/kitronik_arcade_m4_J/uart_driver.o
+ .text.uart_write_buffer_polled
+                0x00000000       0x18 build/kitronik_arcade_m4_J/uart_driver.o
+ .text.uart_read_buffer_polled
+                0x00000000       0x38 build/kitronik_arcade_m4_J/uart_driver.o
+ .rodata        0x00000000       0x18 build/kitronik_arcade_m4_J/uart_driver.o
+ .bss.uart_drv_error_flag
+                0x00000000        0x1 build/kitronik_arcade_m4_J/uart_driver.o
+ .debug_info    0x00000000     0x228f build/kitronik_arcade_m4_J/uart_driver.o
+ .debug_abbrev  0x00000000      0x1da build/kitronik_arcade_m4_J/uart_driver.o
+ .debug_loc     0x00000000      0x134 build/kitronik_arcade_m4_J/uart_driver.o
+ .debug_aranges
+                0x00000000       0x50 build/kitronik_arcade_m4_J/uart_driver.o
+ .debug_ranges  0x00000000       0x40 build/kitronik_arcade_m4_J/uart_driver.o
+ .debug_line    0x00000000      0x223 build/kitronik_arcade_m4_J/uart_driver.o
+ .debug_str     0x00000000      0xb57 build/kitronik_arcade_m4_J/uart_driver.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/uart_driver.o
+ .debug_frame   0x00000000       0xa4 build/kitronik_arcade_m4_J/uart_driver.o
+ .ARM.attributes
+                0x00000000       0x33 build/kitronik_arcade_m4_J/uart_driver.o
+ .text          0x00000000        0x0 build/kitronik_arcade_m4_J/hid.o
+ .data          0x00000000        0x0 build/kitronik_arcade_m4_J/hid.o
+ .bss           0x00000000        0x0 build/kitronik_arcade_m4_J/hid.o
+ .text.send_hf2_response
+                0x00000000       0x10 build/kitronik_arcade_m4_J/hid.o
+ .text          0x00000000        0x0 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00004000         xr
+ram              0x20000000         0x00030000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/kitronik_arcade_m4_J/flash_samd51.o
+LOAD build/kitronik_arcade_m4_J/init_samd51.o
+LOAD build/kitronik_arcade_m4_J/startup_samd51.o
+LOAD build/kitronik_arcade_m4_J/usart_sam_ba.o
+LOAD build/kitronik_arcade_m4_J/screen.o
+LOAD build/kitronik_arcade_m4_J/images.o
+LOAD build/kitronik_arcade_m4_J/utils.o
+LOAD build/kitronik_arcade_m4_J/cdc_enumerate.o
+LOAD build/kitronik_arcade_m4_J/fat.o
+LOAD build/kitronik_arcade_m4_J/main.o
+LOAD build/kitronik_arcade_m4_J/msc.o
+LOAD build/kitronik_arcade_m4_J/sam_ba_monitor.o
+LOAD build/kitronik_arcade_m4_J/uart_driver.o
+LOAD build/kitronik_arcade_m4_J/hid.o
+START GROUP
+LOAD c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a
+LOAD c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a
+LOAD c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a
+LOAD c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc_nano.a
+LOAD c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a
+LOAD c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc_nano.a
+LOAD c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a
+END GROUP
+                0x0000c000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0xc000
+
+.text           0x00000000     0x3350
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x00000000      0x264 build/kitronik_arcade_m4_J/startup_samd51.o
+                0x00000000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.flash_erase_to_end
+                0x00000264       0x34 build/kitronik_arcade_m4_J/flash_samd51.o
+                0x00000264                flash_erase_to_end
+ .text.copy_words
+                0x00000298       0x18 build/kitronik_arcade_m4_J/flash_samd51.o
+                0x00000298                copy_words
+ .text.flash_write_words
+                0x000002b0       0x70 build/kitronik_arcade_m4_J/flash_samd51.o
+                0x000002b0                flash_write_words
+ .text.flash_write_row
+                0x00000320      0x14c build/kitronik_arcade_m4_J/flash_samd51.o
+                0x00000320                flash_write_row
+ .text.system_init
+                0x0000046c       0xf4 build/kitronik_arcade_m4_J/init_samd51.o
+                0x0000046c                system_init
+ .text.SysTick_Handler
+                0x00000560        0x4 build/kitronik_arcade_m4_J/init_samd51.o
+                0x00000560                SysTick_Handler
+ .text.Dummy_Handler
+                0x00000564        0x4 build/kitronik_arcade_m4_J/startup_samd51.o
+                0x00000564                EIC_5_Handler
+                0x00000564                SERCOM0_2_Handler
+                0x00000564                DebugMon_Handler
+                0x00000564                EIC_13_Handler
+                0x00000564                EVSYS_0_Handler
+                0x00000564                TCC1_3_Handler
+                0x00000564                DAC_3_Handler
+                0x00000564                TRNG_Handler
+                0x00000564                HardFault_Handler
+                0x00000564                TC2_Handler
+                0x00000564                PDEC_2_Handler
+                0x00000564                EIC_4_Handler
+                0x00000564                AC_Handler
+                0x00000564                SERCOM3_1_Handler
+                0x00000564                TCC2_3_Handler
+                0x00000564                SERCOM3_2_Handler
+                0x00000564                PendSV_Handler
+                0x00000564                NMI_Handler
+                0x00000564                ADC1_1_Handler
+                0x00000564                EVSYS_3_Handler
+                0x00000564                PDEC_0_Handler
+                0x00000564                QSPI_Handler
+                0x00000564                TCC0_0_Handler
+                0x00000564                EIC_3_Handler
+                0x00000564                TAL_0_Handler
+                0x00000564                DAC_2_Handler
+                0x00000564                SERCOM0_0_Handler
+                0x00000564                RTC_Handler
+                0x00000564                UsageFault_Handler
+                0x00000564                SERCOM4_0_Handler
+                0x00000564                EIC_10_Handler
+                0x00000564                SERCOM0_3_Handler
+                0x00000564                EIC_11_Handler
+                0x00000564                EIC_9_Handler
+                0x00000564                OSC32KCTRL_Handler
+                0x00000564                TCC2_1_Handler
+                0x00000564                SUPC_1_Handler
+                0x00000564                TCC0_5_Handler
+                0x00000564                TCC0_6_Handler
+                0x00000564                EVSYS_1_Handler
+                0x00000564                TCC1_4_Handler
+                0x00000564                DMAC_0_Handler
+                0x00000564                WDT_Handler
+                0x00000564                EIC_8_Handler
+                0x00000564                EIC_15_Handler
+                0x00000564                SERCOM5_0_Handler
+                0x00000564                TC4_Handler
+                0x00000564                TC1_Handler
+                0x00000564                OSCCTRL_4_Handler
+                0x00000564                SERCOM4_3_Handler
+                0x00000564                EIC_12_Handler
+                0x00000564                DMAC_4_Handler
+                0x00000564                TCC4_2_Handler
+                0x00000564                PAC_Handler
+                0x00000564                TCC1_0_Handler
+                0x00000564                USB_0_Handler
+                0x00000564                OSCCTRL_0_Handler
+                0x00000564                EIC_0_Handler
+                0x00000564                OSCCTRL_3_Handler
+                0x00000564                SERCOM4_1_Handler
+                0x00000564                TC3_Handler
+                0x00000564                Dummy_Handler
+                0x00000564                TCC3_0_Handler
+                0x00000564                TCC2_2_Handler
+                0x00000564                SERCOM5_1_Handler
+                0x00000564                TCC1_1_Handler
+                0x00000564                DMAC_2_Handler
+                0x00000564                ADC0_0_Handler
+                0x00000564                SERCOM0_1_Handler
+                0x00000564                OSCCTRL_2_Handler
+                0x00000564                ADC1_0_Handler
+                0x00000564                TCC1_2_Handler
+                0x00000564                USB_1_Handler
+                0x00000564                PM_Handler
+                0x00000564                SERCOM2_3_Handler
+                0x00000564                DAC_4_Handler
+                0x00000564                TCC3_2_Handler
+                0x00000564                TCC0_2_Handler
+                0x00000564                DMAC_1_Handler
+                0x00000564                TCC4_0_Handler
+                0x00000564                USB_3_Handler
+                0x00000564                TCC2_0_Handler
+                0x00000564                PDEC_1_Handler
+                0x00000564                MemManage_Handler
+                0x00000564                TCC4_1_Handler
+                0x00000564                SERCOM5_3_Handler
+                0x00000564                USB_2_Handler
+                0x00000564                SVC_Handler
+                0x00000564                SDHC0_Handler
+                0x00000564                SERCOM1_1_Handler
+                0x00000564                I2S_Handler
+                0x00000564                EIC_2_Handler
+                0x00000564                PCC_Handler
+                0x00000564                DAC_0_Handler
+                0x00000564                TCC0_1_Handler
+                0x00000564                SERCOM1_3_Handler
+                0x00000564                EIC_6_Handler
+                0x00000564                OSCCTRL_1_Handler
+                0x00000564                SERCOM1_0_Handler
+                0x00000564                PUKCC_Handler
+                0x00000564                SERCOM2_1_Handler
+                0x00000564                SERCOM1_2_Handler
+                0x00000564                SERCOM3_0_Handler
+                0x00000564                EIC_1_Handler
+                0x00000564                SERCOM4_2_Handler
+                0x00000564                EVSYS_4_Handler
+                0x00000564                EIC_7_Handler
+                0x00000564                NVMCTRL_1_Handler
+                0x00000564                SERCOM5_2_Handler
+                0x00000564                ADC0_1_Handler
+                0x00000564                SERCOM3_3_Handler
+                0x00000564                SERCOM2_2_Handler
+                0x00000564                TCC3_1_Handler
+                0x00000564                EIC_14_Handler
+                0x00000564                DAC_1_Handler
+                0x00000564                NVMCTRL_0_Handler
+                0x00000564                TAL_1_Handler
+                0x00000564                MCLK_Handler
+                0x00000564                EVSYS_2_Handler
+                0x00000564                SUPC_0_Handler
+                0x00000564                BusFault_Handler
+                0x00000564                FREQM_Handler
+                0x00000564                TC0_Handler
+                0x00000564                TCC0_3_Handler
+                0x00000564                DMAC_3_Handler
+                0x00000564                TCC0_4_Handler
+                0x00000564                RAMECC_Handler
+                0x00000564                TC5_Handler
+                0x00000564                SERCOM2_0_Handler
+                0x00000564                ICM_Handler
+                0x00000564                AES_Handler
+ .text.Reset_Handler
+                0x00000568       0x74 build/kitronik_arcade_m4_J/startup_samd51.o
+                0x00000568                Reset_Handler
+ .text.add_crc  0x000005dc       0x54 build/kitronik_arcade_m4_J/usart_sam_ba.o
+                0x000005dc                add_crc
+ .text.lookupCfg
+                0x00000630       0x48 build/kitronik_arcade_m4_J/screen.o
+                0x00000630                lookupCfg
+ .text.pin_set  0x00000678       0x44 build/kitronik_arcade_m4_J/screen.o
+                0x00000678                pin_set
+ .text.setup_output_pin
+                0x000006bc       0x28 build/kitronik_arcade_m4_J/screen.o
+                0x000006bc                setup_output_pin
+ .text.transfer
+                0x000006e4       0xc8 build/kitronik_arcade_m4_J/screen.o
+                0x000006e4                transfer
+ .text.sendCmd  0x000007ac       0x58 build/kitronik_arcade_m4_J/screen.o
+ .text.printicon
+                0x00000804       0xc4 build/kitronik_arcade_m4_J/screen.o
+                0x00000804                printicon
+ .text.print    0x000008c8       0x94 build/kitronik_arcade_m4_J/screen.o
+                0x000008c8                print
+ .text.draw_screen
+                0x0000095c       0x84 build/kitronik_arcade_m4_J/screen.o
+                0x0000095c                draw_screen
+ .text.drawBar  0x000009e0       0x28 build/kitronik_arcade_m4_J/screen.o
+                0x000009e0                drawBar
+ .text.draw_drag
+                0x00000a08      0x118 build/kitronik_arcade_m4_J/screen.o
+                0x00000a08                draw_drag
+ .text.screen_early_init
+                0x00000b20        0x8 build/kitronik_arcade_m4_J/screen.o
+                0x00000b20                screen_early_init
+ .text.screen_init
+                0x00000b28      0x1bc build/kitronik_arcade_m4_J/screen.o
+                0x00000b28                screen_init
+ .text.NVIC_SystemReset
+                0x00000ce4       0x20 build/kitronik_arcade_m4_J/utils.o
+ .text.delay    0x00000d04       0x14 build/kitronik_arcade_m4_J/utils.o
+                0x00000d04                delay
+ .text.panic    0x00000d18        0x4 build/kitronik_arcade_m4_J/utils.o
+                0x00000d18                panic
+ .text.writeNum
+                0x00000d1c       0x40 build/kitronik_arcade_m4_J/utils.o
+                0x00000d1c                writeNum
+ .text.resetIntoBootloader
+                0x00000d5c       0x14 build/kitronik_arcade_m4_J/utils.o
+                0x00000d5c                resetIntoBootloader
+ .text.led_tick
+                0x00000d70       0x94 build/kitronik_arcade_m4_J/utils.o
+                0x00000d70                led_tick
+ .text.led_signal
+                0x00000e04       0x28 build/kitronik_arcade_m4_J/utils.o
+                0x00000e04                led_signal
+ .text.RGBLED_set_color
+                0x00000e2c      0x16c build/kitronik_arcade_m4_J/utils.o
+                0x00000e2c                RGBLED_set_color
+ .text.resetIntoApp
+                0x00000f98       0x1c build/kitronik_arcade_m4_J/utils.o
+                0x00000f98                resetIntoApp
+ .text.timerTick
+                0x00000fb4       0x3c build/kitronik_arcade_m4_J/utils.o
+                0x00000fb4                timerTick
+ .text.led_init
+                0x00000ff0       0x2c build/kitronik_arcade_m4_J/utils.o
+                0x00000ff0                led_init
+ .text.AT91F_InitUSB
+                0x0000101c      0x11c build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x0000101c                AT91F_InitUSB
+ .text.USB_ReadCore
+                0x00001138       0xf8 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x00001138                USB_ReadCore
+ .text.USB_ReadBlocking
+                0x00001230       0x20 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x00001230                USB_ReadBlocking
+ .text.USB_WriteCore
+                0x00001250       0x9c build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x00001250                USB_WriteCore
+ .text.USB_Write
+                0x000012ec        0x8 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x000012ec                USB_Write
+ .text.USB_Ok   0x000012f4      0x608 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x000012f4                USB_Ok
+ .text.usb_init
+                0x000018fc       0x28 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x000018fc                usb_init
+ .text.cdc_write_buf
+                0x00001924       0x10 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x00001924                cdc_write_buf
+ .text.cdc_write_buf_xmd
+                0x00001934       0x10 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x00001934                cdc_write_buf_xmd
+ .text.cdc_read_buf
+                0x00001944       0x20 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x00001944                cdc_read_buf
+ .text.cdc_read_buf_xmd
+                0x00001964       0x28 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x00001964                cdc_read_buf_xmd
+ .text.padded_memcpy
+                0x0000198c       0x2c build/kitronik_arcade_m4_J/fat.o
+                0x0000198c                padded_memcpy
+ .text.read_block
+                0x000019b8      0x1dc build/kitronik_arcade_m4_J/fat.o
+                0x000019b8                read_block
+ .text.write_block
+                0x00001b94       0xf4 build/kitronik_arcade_m4_J/fat.o
+                0x00001b94                write_block
+ .text.startup.main
+                0x00001c88      0x11c build/kitronik_arcade_m4_J/main.o
+                0x00001c88                main
+ .text.udi_msc_sense_pass
+                0x00001da4       0x34 build/kitronik_arcade_m4_J/msc.o
+ .text.handover_flash
+                0x00001dd8       0x34 build/kitronik_arcade_m4_J/msc.o
+ .text.udi_msc_sbc_trans
+                0x00001e0c       0xd0 build/kitronik_arcade_m4_J/msc.o
+ .text.udi_msc_sense_fail.constprop.1
+                0x00001edc       0x3c build/kitronik_arcade_m4_J/msc.o
+ .text.udi_msc_data_send
+                0x00001f18       0x54 build/kitronik_arcade_m4_J/msc.o
+ .text.udi_msc_spc_mode_sense
+                0x00001f6c       0x88 build/kitronik_arcade_m4_J/msc.o
+ .text.try_read_cbw
+                0x00001ff4       0x28 build/kitronik_arcade_m4_J/msc.o
+                0x00001ff4                try_read_cbw
+ .text.handover
+                0x0000201c      0x104 build/kitronik_arcade_m4_J/msc.o
+ .text.process_msc
+                0x00002120      0x14c build/kitronik_arcade_m4_J/msc.o
+                0x00002120                process_msc
+ .text.handoverPrep
+                0x0000226c       0x20 build/kitronik_arcade_m4_J/msc.o
+                0x0000226c                handoverPrep
+ .text.put_uint32
+                0x0000228c       0x1c build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                0x0000228c                put_uint32
+ .text.sam_ba_monitor_run
+                0x000022a8      0x350 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                0x000022a8                sam_ba_monitor_run
+ .text.recv_hf2
+                0x000025f8       0x50 build/kitronik_arcade_m4_J/hid.o
+                0x000025f8                recv_hf2
+ .text.send_hf2
+                0x00002648       0xa8 build/kitronik_arcade_m4_J/hid.o
+                0x00002648                send_hf2
+ .text.process_core
+                0x000026f0      0x14c build/kitronik_arcade_m4_J/hid.o
+                0x000026f0                process_core
+ .text.process_hid
+                0x0000283c       0x2c build/kitronik_arcade_m4_J/hid.o
+                0x0000283c                process_hid
+ .text.hidHandoverLoop
+                0x00002868       0x24 build/kitronik_arcade_m4_J/hid.o
+                0x00002868                hidHandoverLoop
+ .text.memcpy   0x0000288c       0x16 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy.o)
+                0x0000288c                memcpy
+ .text.memset   0x000028a2       0x10 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+                0x000028a2                memset
+ .text.strlen   0x000028b2       0x10 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+                0x000028b2                strlen
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ *fill*         0x000028c2        0x2 
+ .rodata.palette
+                0x000028c4       0x20 build/kitronik_arcade_m4_J/screen.o
+                0x000028c4                palette
+ .rodata.initCmds
+                0x000028e4       0x25 build/kitronik_arcade_m4_J/screen.o
+ *fill*         0x00002909        0x3 
+ .rodata.str1.4
+                0x0000290c       0x80 build/kitronik_arcade_m4_J/screen.o
+ .rodata.KitronikLogo
+                0x0000298c       0x4b build/kitronik_arcade_m4_J/images.o
+                0x0000298c                KitronikLogo
+ *fill*         0x000029d7        0x1 
+ .rodata.pendriveLogo
+                0x000029d8       0x3e build/kitronik_arcade_m4_J/images.o
+                0x000029d8                pendriveLogo
+ *fill*         0x00002a16        0x2 
+ .rodata.LargeOne
+                0x00002a18        0xd build/kitronik_arcade_m4_J/images.o
+                0x00002a18                LargeOne
+ *fill*         0x00002a25        0x3 
+ .rodata.arrowLogo
+                0x00002a28       0x39 build/kitronik_arcade_m4_J/images.o
+                0x00002a28                arrowLogo
+ *fill*         0x00002a61        0x3 
+ .rodata.fileLogo
+                0x00002a64       0x4a build/kitronik_arcade_m4_J/images.o
+                0x00002a64                fileLogo
+ *fill*         0x00002aae        0x2 
+ .rodata.LargeFive
+                0x00002ab0       0x16 build/kitronik_arcade_m4_J/images.o
+                0x00002ab0                LargeFive
+ *fill*         0x00002ac6        0x2 
+ .rodata.LargeD
+                0x00002ac8       0x13 build/kitronik_arcade_m4_J/images.o
+                0x00002ac8                LargeD
+ *fill*         0x00002adb        0x1 
+ .rodata.font8  0x00002adc      0x300 build/kitronik_arcade_m4_J/images.o
+                0x00002adc                font8
+ .rodata        0x00002ddc       0x10 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .rodata.hidDescriptor
+                0x00002dec       0x21 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x00002dec                hidDescriptor
+ *fill*         0x00002e0d        0x3 
+ .rodata.str1.4
+                0x00002e10       0x26 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ *fill*         0x00002e36        0x2 
+ .rodata.string_descriptors
+                0x00002e38       0x10 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .rodata.devDescriptor
+                0x00002e48       0x12 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x00002e48                devDescriptor
+ *fill*         0x00002e5a        0x2 
+ .rodata.indexFile
+                0x00002e5c       0x70 build/kitronik_arcade_m4_J/fat.o
+                0x00002e5c                indexFile
+ .rodata.infoUf2File
+                0x00002ecc       0x78 build/kitronik_arcade_m4_J/fat.o
+                0x00002ecc                infoUf2File
+ .rodata.BootBlock
+                0x00002f44       0x3e build/kitronik_arcade_m4_J/fat.o
+ *fill*         0x00002f82        0x2 
+ .rodata.info   0x00002f84       0x30 build/kitronik_arcade_m4_J/fat.o
+ .rodata        0x00002fb4        0xc build/kitronik_arcade_m4_J/msc.o
+ .rodata.config_data
+                0x00002fc0      0x350 build/kitronik_arcade_m4_J/msc.o
+                0x00002fc0                config_data
+ .rodata.str1.4
+                0x00000000       0x16 build/kitronik_arcade_m4_J/msc.o
+ .rodata.fullVersion
+                0x00003310       0x2a build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ *fill*         0x0000333a        0x2 
+ .rodata.str1.4
+                0x0000333c       0x14 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00003350                . = ALIGN (0x4)
+ *(.init)
+                0x00003350                . = ALIGN (0x4)
+                0x00003350                __preinit_array_start = .
+ *(.preinit_array)
+                0x00003350                __preinit_array_end = .
+                0x00003350                . = ALIGN (0x4)
+                0x00003350                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x00003350                __init_array_end = .
+                0x00003350                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x00003350                . = ALIGN (0x4)
+                0x00003350                _efixed = .
+                0x00003350                PROVIDE (__exidx_start, .)
+
+.vfp11_veneer   0x00003350        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00003350        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00003350        0x0
+ .iplt          0x00000000        0x0 build/kitronik_arcade_m4_J/flash_samd51.o
+
+.igot.plt       0x00003350        0x0
+ .igot.plt      0x00000000        0x0 build/kitronik_arcade_m4_J/flash_samd51.o
+
+.rel.dyn        0x00003350        0x0
+ .rel.iplt      0x00000000        0x0 build/kitronik_arcade_m4_J/flash_samd51.o
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00003350                PROVIDE (__exidx_end, .)
+                0x00003350                . = ALIGN (0x4)
+                0x00003350                _etext = .
+
+.relocate       0x20000000      0x1d0 load address 0x00003350
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data.led_tick_step
+                0x20000000        0x1 build/kitronik_arcade_m4_J/utils.o
+                0x20000000                led_tick_step
+ .data.limit    0x20000001        0x1 build/kitronik_arcade_m4_J/utils.o
+ *fill*         0x20000002        0x2 
+ .data.bosDescriptor
+                0x20000004       0x39 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ *fill*         0x2000003d        0x3 
+ .data.msOS20Descriptor
+                0x20000040       0xaa build/kitronik_arcade_m4_J/cdc_enumerate.o
+ *fill*         0x200000ea        0x2 
+ .data.cfgDescriptor
+                0x200000ec       0x99 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x200000ec                cfgDescriptor
+ *fill*         0x20000185        0x3 
+ .data.line_coding
+                0x20000188        0x8 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .data.hidCfgDescriptor
+                0x20000190        0x9 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x20000190                hidCfgDescriptor
+ *fill*         0x20000199        0x3 
+ .data.udi_msc_inquiry_data.17097
+                0x2000019c       0x24 build/kitronik_arcade_m4_J/msc.o
+ .data.udi_msc_csw
+                0x200001c0        0xd build/kitronik_arcade_m4_J/msc.o
+                0x200001d0                . = ALIGN (0x4)
+ *fill*         0x200001cd        0x3 
+                0x200001d0                _erelocate = .
+
+.bss            0x200001d0     0x68e4 load address 0x00003520
+                0x200001d0                . = ALIGN (0x4)
+                0x200001d0                _sbss = .
+                0x200001d0                _szero = .
+ *(.bss .bss.*)
+ .bss.crcCache  0x200001d0      0x200 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .bss.palXOR    0x200003d0        0x4 build/kitronik_arcade_m4_J/screen.o
+ .bss.cmdBuf    0x200003d4       0x14 build/kitronik_arcade_m4_J/screen.o
+ .bss.now       0x200003e8        0x4 build/kitronik_arcade_m4_J/utils.o
+ .bss.signal_end
+                0x200003ec        0x4 build/kitronik_arcade_m4_J/utils.o
+ .bss.timerLow  0x200003f0        0x4 build/kitronik_arcade_m4_J/utils.o
+ .bss.currentConfiguration
+                0x200003f4        0x1 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ *fill*         0x200003f5        0x3 
+ .bss.pCdc      0x200003f8        0x2 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .bss.wLength   0x200003fa        0x2 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .bss.serial_number
+                0x200003fc       0x21 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .bss.main_b_cdc_enable
+                0x2000041d        0x1 build/kitronik_arcade_m4_J/main.o
+ *fill*         0x2000041e        0x2 
+ .bss.udi_msc_capacity.17130
+                0x20000420        0x8 build/kitronik_arcade_m4_J/msc.o
+ .bss.udi_msc_cbw
+                0x20000428       0x1f build/kitronik_arcade_m4_J/msc.o
+ *fill*         0x20000447        0x1 
+ .bss.usbWriteState
+                0x20000448      0x118 build/kitronik_arcade_m4_J/msc.o
+ .bss.block_buffer
+                0x20000560      0x200 build/kitronik_arcade_m4_J/msc.o
+ .bss.sense.17120
+                0x20000760       0x14 build/kitronik_arcade_m4_J/msc.o
+ .bss.udi_msc_sense
+                0x20000774       0x12 build/kitronik_arcade_m4_J/msc.o
+ *fill*         0x20000786        0x2 
+ .bss.src_buff_addr.16541
+                0x20000788        0x4 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .bss.b_sam_ba_interface_usart
+                0x2000078c        0x1 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                0x2000078c                b_sam_ba_interface_usart
+ *fill*         0x2000078d        0x3 
+ .bss.hidbufData
+                0x20000790      0x188 build/kitronik_arcade_m4_J/hid.o
+ .bss.webbufData
+                0x20000918      0x188 build/kitronik_arcade_m4_J/hid.o
+ *(COMMON)
+ COMMON         0x20000aa0      0x840 build/kitronik_arcade_m4_J/flash_samd51.o
+                0x20000aa0                block_erased
+                0x20000ae0                row_same
+ COMMON         0x200012e0     0x5400 build/kitronik_arcade_m4_J/screen.o
+                0x200012e0                fb
+ COMMON         0x200066e0        0x8 build/kitronik_arcade_m4_J/utils.o
+                0x200066e0                timerHigh
+                0x200066e4                resetHorizon
+ COMMON         0x200066e8      0x364 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                0x200066e8                ctrlOutCache
+                0x2000672c                usb_endpoint_table
+                0x2000682c                endpointCache
+ COMMON         0x20006a4c       0x68 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                0x20006a4c                j
+                0x20006a50                length
+                0x20006a54                ptr
+                0x20006a58                command
+                0x20006a5c                i
+                0x20006a60                data
+                0x20006aa4                ptr_data
+                0x20006aa8                sp
+                0x20006aac                current_number
+                0x20006ab0                u32tmp
+                0x20006ab4                . = ALIGN (0x4)
+                0x20006ab4                _ebss = .
+                0x20006ab4                _ezero = .
+
+.stack          0x20006ab4     0xc004 load address 0x00009e04
+                0x20006ab8                . = ALIGN (0x8)
+ *fill*         0x20006ab4        0x4 
+                0x20006ab8                _sstack = .
+                0x20012ab8                . = (. + STACK_SIZE)
+ *fill*         0x20006ab8     0xc000 
+                0x20012ab8                . = ALIGN (0x8)
+                0x20012ab8                _estack = .
+                0x20012ab8                . = ALIGN (0x4)
+                0x20012ab8                _end = .
+                0x00003ff0                _binfo_start = 0x3ff0
+
+.binfo          0x00003ff0       0x10
+ *(.binfo)
+ .binfo         0x00003ff0       0x10 build/kitronik_arcade_m4_J/msc.o
+                0x00003ff0                binfo
+OUTPUT(build/kitronik_arcade_m4_J/bootloader-kitronik_arcade_m4_J-v3.2.3-2-g25deea9-dirty.elf elf32-littlearm)
+
+.debug_info     0x00000000    0x15941
+ .debug_info    0x00000000      0xda2 build/kitronik_arcade_m4_J/flash_samd51.o
+ .debug_info    0x00000da2     0x3107 build/kitronik_arcade_m4_J/init_samd51.o
+ .debug_info    0x00003ea9      0xb4c build/kitronik_arcade_m4_J/startup_samd51.o
+ .debug_info    0x000049f5     0x3eab build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .debug_info    0x000088a0     0x1ad5 build/kitronik_arcade_m4_J/screen.o
+ .debug_info    0x0000a375      0x1b2 build/kitronik_arcade_m4_J/images.o
+ .debug_info    0x0000a527      0xe52 build/kitronik_arcade_m4_J/utils.o
+ .debug_info    0x0000b379     0x48d8 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .debug_info    0x0000fc51      0x8cb build/kitronik_arcade_m4_J/fat.o
+ .debug_info    0x0001051c      0xc83 build/kitronik_arcade_m4_J/main.o
+ .debug_info    0x0001119f     0x33c6 build/kitronik_arcade_m4_J/msc.o
+ .debug_info    0x00014565      0x7b6 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .debug_info    0x00014d1b      0xc26 build/kitronik_arcade_m4_J/hid.o
+
+.debug_abbrev   0x00000000     0x269c
+ .debug_abbrev  0x00000000      0x28b build/kitronik_arcade_m4_J/flash_samd51.o
+ .debug_abbrev  0x0000028b      0x224 build/kitronik_arcade_m4_J/init_samd51.o
+ .debug_abbrev  0x000004af      0x15e build/kitronik_arcade_m4_J/startup_samd51.o
+ .debug_abbrev  0x0000060d      0x483 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .debug_abbrev  0x00000a90      0x45f build/kitronik_arcade_m4_J/screen.o
+ .debug_abbrev  0x00000eef       0x66 build/kitronik_arcade_m4_J/images.o
+ .debug_abbrev  0x00000f55      0x33d build/kitronik_arcade_m4_J/utils.o
+ .debug_abbrev  0x00001292      0x40a build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .debug_abbrev  0x0000169c      0x295 build/kitronik_arcade_m4_J/fat.o
+ .debug_abbrev  0x00001931      0x28b build/kitronik_arcade_m4_J/main.o
+ .debug_abbrev  0x00001bbc      0x520 build/kitronik_arcade_m4_J/msc.o
+ .debug_abbrev  0x000020dc      0x2ab build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .debug_abbrev  0x00002387      0x315 build/kitronik_arcade_m4_J/hid.o
+
+.debug_loc      0x00000000     0x4cc3
+ .debug_loc     0x00000000      0x43b build/kitronik_arcade_m4_J/flash_samd51.o
+ .debug_loc     0x0000043b       0x3e build/kitronik_arcade_m4_J/startup_samd51.o
+ .debug_loc     0x00000479      0x98e build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .debug_loc     0x00000e07      0xd05 build/kitronik_arcade_m4_J/screen.o
+ .debug_loc     0x00001b0c      0x2d3 build/kitronik_arcade_m4_J/utils.o
+ .debug_loc     0x00001ddf     0x1784 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .debug_loc     0x00003563      0x6ab build/kitronik_arcade_m4_J/fat.o
+ .debug_loc     0x00003c0e       0x57 build/kitronik_arcade_m4_J/main.o
+ .debug_loc     0x00003c65      0x53b build/kitronik_arcade_m4_J/msc.o
+ .debug_loc     0x000041a0      0x2c3 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .debug_loc     0x00004463      0x860 build/kitronik_arcade_m4_J/hid.o
+
+.debug_aranges  0x00000000      0x420
+ .debug_aranges
+                0x00000000       0x40 build/kitronik_arcade_m4_J/flash_samd51.o
+ .debug_aranges
+                0x00000040       0x28 build/kitronik_arcade_m4_J/init_samd51.o
+ .debug_aranges
+                0x00000068       0x28 build/kitronik_arcade_m4_J/startup_samd51.o
+ .debug_aranges
+                0x00000090       0x88 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .debug_aranges
+                0x00000118       0x88 build/kitronik_arcade_m4_J/screen.o
+ .debug_aranges
+                0x000001a0       0x18 build/kitronik_arcade_m4_J/images.o
+ .debug_aranges
+                0x000001b8       0x78 build/kitronik_arcade_m4_J/utils.o
+ .debug_aranges
+                0x00000230       0x98 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .debug_aranges
+                0x000002c8       0x30 build/kitronik_arcade_m4_J/fat.o
+ .debug_aranges
+                0x000002f8       0x20 build/kitronik_arcade_m4_J/main.o
+ .debug_aranges
+                0x00000318       0x80 build/kitronik_arcade_m4_J/msc.o
+ .debug_aranges
+                0x00000398       0x40 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .debug_aranges
+                0x000003d8       0x48 build/kitronik_arcade_m4_J/hid.o
+
+.debug_ranges   0x00000000      0xcd0
+ .debug_ranges  0x00000000       0x60 build/kitronik_arcade_m4_J/flash_samd51.o
+ .debug_ranges  0x00000060       0x60 build/kitronik_arcade_m4_J/init_samd51.o
+ .debug_ranges  0x000000c0       0x18 build/kitronik_arcade_m4_J/startup_samd51.o
+ .debug_ranges  0x000000d8      0x1e8 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .debug_ranges  0x000002c0      0x178 build/kitronik_arcade_m4_J/screen.o
+ .debug_ranges  0x00000438      0x110 build/kitronik_arcade_m4_J/utils.o
+ .debug_ranges  0x00000548      0x2c8 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .debug_ranges  0x00000810      0x100 build/kitronik_arcade_m4_J/fat.o
+ .debug_ranges  0x00000910       0x28 build/kitronik_arcade_m4_J/main.o
+ .debug_ranges  0x00000938      0x1e0 build/kitronik_arcade_m4_J/msc.o
+ .debug_ranges  0x00000b18       0x90 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .debug_ranges  0x00000ba8      0x128 build/kitronik_arcade_m4_J/hid.o
+
+.debug_line     0x00000000     0x25d8
+ .debug_line    0x00000000      0x209 build/kitronik_arcade_m4_J/flash_samd51.o
+ .debug_line    0x00000209      0x1fa build/kitronik_arcade_m4_J/init_samd51.o
+ .debug_line    0x00000403      0x12a build/kitronik_arcade_m4_J/startup_samd51.o
+ .debug_line    0x0000052d      0x448 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .debug_line    0x00000975      0x433 build/kitronik_arcade_m4_J/screen.o
+ .debug_line    0x00000da8       0xa0 build/kitronik_arcade_m4_J/images.o
+ .debug_line    0x00000e48      0x385 build/kitronik_arcade_m4_J/utils.o
+ .debug_line    0x000011cd      0x590 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .debug_line    0x0000175d      0x287 build/kitronik_arcade_m4_J/fat.o
+ .debug_line    0x000019e4      0x1e8 build/kitronik_arcade_m4_J/main.o
+ .debug_line    0x00001bcc      0x4f4 build/kitronik_arcade_m4_J/msc.o
+ .debug_line    0x000020c0      0x287 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .debug_line    0x00002347      0x291 build/kitronik_arcade_m4_J/hid.o
+
+.debug_str      0x00000000     0x47a1
+ .debug_str     0x00000000      0x4c7 build/kitronik_arcade_m4_J/flash_samd51.o
+                                0x576 (size before relaxing)
+ .debug_str     0x000004c7     0x10a5 build/kitronik_arcade_m4_J/init_samd51.o
+                               0x1580 (size before relaxing)
+ .debug_str     0x0000156c      0xb05 build/kitronik_arcade_m4_J/startup_samd51.o
+                                0xd4b (size before relaxing)
+ .debug_str     0x00002071      0x9de build/kitronik_arcade_m4_J/usart_sam_ba.o
+                               0x1205 (size before relaxing)
+ .debug_str     0x00002a4f      0x283 build/kitronik_arcade_m4_J/screen.o
+                                0x684 (size before relaxing)
+ .debug_str     0x00002cd2        0xd build/kitronik_arcade_m4_J/images.o
+                                0x1f3 (size before relaxing)
+ .debug_str     0x00002cdf       0xdd build/kitronik_arcade_m4_J/utils.o
+                                0x53b (size before relaxing)
+ .debug_str     0x00002dbc      0xa64 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                               0x135b (size before relaxing)
+ .debug_str     0x00003820      0x2b2 build/kitronik_arcade_m4_J/fat.o
+                                0x50e (size before relaxing)
+ .debug_str     0x00003ad2       0xdf build/kitronik_arcade_m4_J/main.o
+                                0x590 (size before relaxing)
+ .debug_str     0x00003bb1      0x928 build/kitronik_arcade_m4_J/msc.o
+                               0x14e7 (size before relaxing)
+ .debug_str     0x000044d9       0xc9 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                                0x3b7 (size before relaxing)
+ .debug_str     0x000045a2      0x1ff build/kitronik_arcade_m4_J/hid.o
+                                0x4e2 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 build/kitronik_arcade_m4_J/flash_samd51.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/init_samd51.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/startup_samd51.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/screen.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/images.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/utils.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/fat.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/main.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/msc.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .comment       0x00000000       0x71 build/kitronik_arcade_m4_J/hid.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 build/kitronik_arcade_m4_J/flash_samd51.o
+ .ARM.attributes
+                0x00000033       0x33 build/kitronik_arcade_m4_J/init_samd51.o
+ .ARM.attributes
+                0x00000066       0x33 build/kitronik_arcade_m4_J/startup_samd51.o
+ .ARM.attributes
+                0x00000099       0x33 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .ARM.attributes
+                0x000000cc       0x33 build/kitronik_arcade_m4_J/screen.o
+ .ARM.attributes
+                0x000000ff       0x33 build/kitronik_arcade_m4_J/images.o
+ .ARM.attributes
+                0x00000132       0x33 build/kitronik_arcade_m4_J/utils.o
+ .ARM.attributes
+                0x00000165       0x33 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .ARM.attributes
+                0x00000198       0x33 build/kitronik_arcade_m4_J/fat.o
+ .ARM.attributes
+                0x000001cb       0x33 build/kitronik_arcade_m4_J/main.o
+ .ARM.attributes
+                0x000001fe       0x33 build/kitronik_arcade_m4_J/msc.o
+ .ARM.attributes
+                0x00000231       0x33 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .ARM.attributes
+                0x00000264       0x33 build/kitronik_arcade_m4_J/hid.o
+ .ARM.attributes
+                0x00000297       0x2e c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000002c5       0x2e c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000002f3       0x2e c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+
+.debug_frame    0x00000000      0xc5c
+ .debug_frame   0x00000000       0xa8 build/kitronik_arcade_m4_J/flash_samd51.o
+ .debug_frame   0x000000a8       0x44 build/kitronik_arcade_m4_J/init_samd51.o
+ .debug_frame   0x000000ec       0x38 build/kitronik_arcade_m4_J/startup_samd51.o
+ .debug_frame   0x00000124      0x1a8 build/kitronik_arcade_m4_J/usart_sam_ba.o
+ .debug_frame   0x000002cc      0x1ec build/kitronik_arcade_m4_J/screen.o
+ .debug_frame   0x000004b8      0x15c build/kitronik_arcade_m4_J/utils.o
+ .debug_frame   0x00000614      0x1d8 build/kitronik_arcade_m4_J/cdc_enumerate.o
+ .debug_frame   0x000007ec       0x8c build/kitronik_arcade_m4_J/fat.o
+ .debug_frame   0x00000878       0x28 build/kitronik_arcade_m4_J/main.o
+ .debug_frame   0x000008a0      0x1b8 build/kitronik_arcade_m4_J/msc.o
+ .debug_frame   0x00000a58       0x90 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ .debug_frame   0x00000ae8      0x10c build/kitronik_arcade_m4_J/hid.o
+ .debug_frame   0x00000bf4       0x28 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x00000c1c       0x20 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000c3c       0x20 c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+
+Cross Reference Table
+
+Symbol                                            File
+AC_Handler                                        build/kitronik_arcade_m4_J/startup_samd51.o
+ADC0_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+ADC0_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+ADC1_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+ADC1_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+AES_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+AT91F_InitUSB                                     build/kitronik_arcade_m4_J/cdc_enumerate.o
+AT91F_USB_SendZlp                                 build/kitronik_arcade_m4_J/cdc_enumerate.o
+BusFault_Handler                                  build/kitronik_arcade_m4_J/startup_samd51.o
+DAC_0_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+DAC_1_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+DAC_2_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+DAC_3_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+DAC_4_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+DMAC_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+DMAC_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+DMAC_2_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+DMAC_3_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+DMAC_4_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+DebugMon_Handler                                  build/kitronik_arcade_m4_J/startup_samd51.o
+Dummy_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_0_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_10_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_11_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_12_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_13_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_14_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_15_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_1_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_2_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_3_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_4_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_5_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_6_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_7_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_8_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EIC_9_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+EVSYS_0_Handler                                   build/kitronik_arcade_m4_J/startup_samd51.o
+EVSYS_1_Handler                                   build/kitronik_arcade_m4_J/startup_samd51.o
+EVSYS_2_Handler                                   build/kitronik_arcade_m4_J/startup_samd51.o
+EVSYS_3_Handler                                   build/kitronik_arcade_m4_J/startup_samd51.o
+EVSYS_4_Handler                                   build/kitronik_arcade_m4_J/startup_samd51.o
+FREQM_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+HardFault_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+I2S_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+ICM_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+KitronikLogo                                      build/kitronik_arcade_m4_J/images.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+LargeD                                            build/kitronik_arcade_m4_J/images.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+LargeFive                                         build/kitronik_arcade_m4_J/images.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+LargeOne                                          build/kitronik_arcade_m4_J/images.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+MCLK_Handler                                      build/kitronik_arcade_m4_J/startup_samd51.o
+MemManage_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+NMI_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+NVMCTRL_0_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+NVMCTRL_1_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+OSC32KCTRL_Handler                                build/kitronik_arcade_m4_J/startup_samd51.o
+OSCCTRL_0_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+OSCCTRL_1_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+OSCCTRL_2_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+OSCCTRL_3_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+OSCCTRL_4_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+PAC_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+PCC_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+PDEC_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+PDEC_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+PDEC_2_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+PM_Handler                                        build/kitronik_arcade_m4_J/startup_samd51.o
+PUKCC_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+PendSV_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+QSPI_Handler                                      build/kitronik_arcade_m4_J/startup_samd51.o
+RAMECC_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+RGBLED_set_color                                  build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                                                  build/kitronik_arcade_m4_J/main.o
+RTC_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+Reset_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+SDHC0_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM0_0_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM0_1_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM0_2_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM0_3_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM1_0_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM1_1_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM1_2_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM1_3_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM2_0_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM2_1_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM2_2_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM2_3_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM3_0_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM3_1_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM3_2_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM3_3_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM4_0_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM4_1_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM4_2_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM4_3_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM5_0_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM5_1_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM5_2_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SERCOM5_3_Handler                                 build/kitronik_arcade_m4_J/startup_samd51.o
+SUPC_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+SUPC_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+SVC_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+SysTick_Handler                                   build/kitronik_arcade_m4_J/init_samd51.o
+TAL_0_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+TAL_1_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+TC0_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+TC1_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+TC2_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+TC3_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+TC4_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+TC5_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+TCC0_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC0_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC0_2_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC0_3_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC0_4_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC0_5_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC0_6_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC1_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC1_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC1_2_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC1_3_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC1_4_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC2_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC2_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC2_2_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC2_3_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC3_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC3_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC3_2_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC4_0_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC4_1_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TCC4_2_Handler                                    build/kitronik_arcade_m4_J/startup_samd51.o
+TRNG_Handler                                      build/kitronik_arcade_m4_J/startup_samd51.o
+USB_0_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+USB_1_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+USB_2_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+USB_3_Handler                                     build/kitronik_arcade_m4_J/startup_samd51.o
+USB_Ok                                            build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+                                                  build/kitronik_arcade_m4_J/main.o
+USB_Read                                          build/kitronik_arcade_m4_J/cdc_enumerate.o
+USB_ReadBlocking                                  build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+USB_ReadCore                                      build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+USB_Write                                         build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+USB_WriteCore                                     build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+UsageFault_Handler                                build/kitronik_arcade_m4_J/startup_samd51.o
+WDT_Handler                                       build/kitronik_arcade_m4_J/startup_samd51.o
+_erelocate                                        build/kitronik_arcade_m4_J/startup_samd51.o
+_estack                                           build/kitronik_arcade_m4_J/startup_samd51.o
+_etext                                            build/kitronik_arcade_m4_J/startup_samd51.o
+_ezero                                            build/kitronik_arcade_m4_J/startup_samd51.o
+_sfixed                                           build/kitronik_arcade_m4_J/startup_samd51.o
+_srelocate                                        build/kitronik_arcade_m4_J/startup_samd51.o
+_szero                                            build/kitronik_arcade_m4_J/startup_samd51.o
+add_crc                                           build/kitronik_arcade_m4_J/usart_sam_ba.o
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+arrowLogo                                         build/kitronik_arcade_m4_J/images.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+b_sam_ba_interface_usart                          build/kitronik_arcade_m4_J/sam_ba_monitor.o
+b_sharp_received                                  build/kitronik_arcade_m4_J/usart_sam_ba.o
+binfo                                             build/kitronik_arcade_m4_J/msc.o
+block_erased                                      build/kitronik_arcade_m4_J/flash_samd51.o
+buffer_rx_usart                                   build/kitronik_arcade_m4_J/usart_sam_ba.o
+buffer_tx_usart                                   build/kitronik_arcade_m4_J/usart_sam_ba.o
+call_applet                                       build/kitronik_arcade_m4_J/sam_ba_monitor.o
+cdc_is_rx_ready                                   build/kitronik_arcade_m4_J/cdc_enumerate.o
+cdc_read_buf                                      build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+cdc_read_buf_xmd                                  build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+cdc_write_buf                                     build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+cdc_write_buf_xmd                                 build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+cfgDescriptor                                     build/kitronik_arcade_m4_J/cdc_enumerate.o
+command                                           build/kitronik_arcade_m4_J/sam_ba_monitor.o
+config_data                                       build/kitronik_arcade_m4_J/msc.o
+copy_words                                        build/kitronik_arcade_m4_J/flash_samd51.o
+                                                  build/kitronik_arcade_m4_J/hid.o
+ctrlOutCache                                      build/kitronik_arcade_m4_J/cdc_enumerate.o
+current_number                                    build/kitronik_arcade_m4_J/sam_ba_monitor.o
+data                                              build/kitronik_arcade_m4_J/sam_ba_monitor.o
+delay                                             build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/main.o
+devDescriptor                                     build/kitronik_arcade_m4_J/cdc_enumerate.o
+drawBar                                           build/kitronik_arcade_m4_J/screen.o
+draw_drag                                         build/kitronik_arcade_m4_J/screen.o
+                                                  build/kitronik_arcade_m4_J/main.o
+draw_hf2                                          build/kitronik_arcade_m4_J/screen.o
+draw_screen                                       build/kitronik_arcade_m4_J/screen.o
+endpointCache                                     build/kitronik_arcade_m4_J/cdc_enumerate.o
+error_timeout                                     build/kitronik_arcade_m4_J/usart_sam_ba.o
+exception_table                                   build/kitronik_arcade_m4_J/startup_samd51.o
+fb                                                build/kitronik_arcade_m4_J/screen.o
+fileLogo                                          build/kitronik_arcade_m4_J/images.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+flash_erase_block                                 build/kitronik_arcade_m4_J/flash_samd51.o
+flash_erase_to_end                                build/kitronik_arcade_m4_J/flash_samd51.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+flash_write_row                                   build/kitronik_arcade_m4_J/flash_samd51.o
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/fat.o
+flash_write_words                                 build/kitronik_arcade_m4_J/flash_samd51.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+font8                                             build/kitronik_arcade_m4_J/images.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+getPacket                                         build/kitronik_arcade_m4_J/usart_sam_ba.o
+handoverPrep                                      build/kitronik_arcade_m4_J/msc.o
+                                                  build/kitronik_arcade_m4_J/hid.o
+hidCfgDescriptor                                  build/kitronik_arcade_m4_J/cdc_enumerate.o
+hidDescriptor                                     build/kitronik_arcade_m4_J/cdc_enumerate.o
+hidHandoverLoop                                   build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+i                                                 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+idx_rx_read                                       build/kitronik_arcade_m4_J/usart_sam_ba.o
+idx_rx_write                                      build/kitronik_arcade_m4_J/usart_sam_ba.o
+idx_tx_read                                       build/kitronik_arcade_m4_J/usart_sam_ba.o
+idx_tx_write                                      build/kitronik_arcade_m4_J/usart_sam_ba.o
+indexFile                                         build/kitronik_arcade_m4_J/fat.o
+infoUf2File                                       build/kitronik_arcade_m4_J/fat.o
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+j                                                 build/kitronik_arcade_m4_J/sam_ba_monitor.o
+led_init                                          build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/main.o
+led_signal                                        build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+led_tick                                          build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/init_samd51.o
+led_tick_step                                     build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/main.o
+length                                            build/kitronik_arcade_m4_J/sam_ba_monitor.o
+lookupCfg                                         build/kitronik_arcade_m4_J/screen.o
+main                                              build/kitronik_arcade_m4_J/main.o
+                                                  build/kitronik_arcade_m4_J/startup_samd51.o
+memcpy                                            c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memcpy.o)
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                                                  build/kitronik_arcade_m4_J/fat.o
+                                                  build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+                                                  build/kitronik_arcade_m4_J/flash_samd51.o
+memset                                            c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-memset.o)
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+                                                  build/kitronik_arcade_m4_J/fat.o
+                                                  build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+mode_of_transfer                                  build/kitronik_arcade_m4_J/usart_sam_ba.o
+mscReset                                          build/kitronik_arcade_m4_J/msc.o
+msc_reset                                         build/kitronik_arcade_m4_J/msc.o
+padded_memcpy                                     build/kitronik_arcade_m4_J/fat.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+palette                                           build/kitronik_arcade_m4_J/screen.o
+panic                                             build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+pendriveLogo                                      build/kitronik_arcade_m4_J/images.o
+                                                  build/kitronik_arcade_m4_J/screen.o
+pin_set                                           build/kitronik_arcade_m4_J/screen.o
+print                                             build/kitronik_arcade_m4_J/screen.o
+print4                                            build/kitronik_arcade_m4_J/screen.o
+printicon                                         build/kitronik_arcade_m4_J/screen.o
+process_core                                      build/kitronik_arcade_m4_J/hid.o
+process_hid                                       build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+process_msc                                       build/kitronik_arcade_m4_J/msc.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ptr                                               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+ptr_data                                          build/kitronik_arcade_m4_J/sam_ba_monitor.o
+put_uint32                                        build/kitronik_arcade_m4_J/sam_ba_monitor.o
+read_block                                        build/kitronik_arcade_m4_J/fat.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+recv_hf2                                          build/kitronik_arcade_m4_J/hid.o
+resetHorizon                                      build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/main.o
+                                                  build/kitronik_arcade_m4_J/fat.o
+resetIntoApp                                      build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+resetIntoBootloader                               build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+reset_ep                                          build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+row_same                                          build/kitronik_arcade_m4_J/flash_samd51.o
+sam_ba_monitor_init                               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+sam_ba_monitor_run                                build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                                                  build/kitronik_arcade_m4_J/main.o
+sam_ba_putdata_term                               build/kitronik_arcade_m4_J/sam_ba_monitor.o
+screen_early_init                                 build/kitronik_arcade_m4_J/screen.o
+                                                  build/kitronik_arcade_m4_J/utils.o
+screen_init                                       build/kitronik_arcade_m4_J/screen.o
+                                                  build/kitronik_arcade_m4_J/main.o
+send_hf2                                          build/kitronik_arcade_m4_J/hid.o
+send_hf2_response                                 build/kitronik_arcade_m4_J/hid.o
+setup_output_pin                                  build/kitronik_arcade_m4_J/screen.o
+size_of_data                                      build/kitronik_arcade_m4_J/usart_sam_ba.o
+sp                                                build/kitronik_arcade_m4_J/sam_ba_monitor.o
+stall_ep                                          build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/msc.o
+strlen                                            c:/yotta/gcc/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg_nano.a(lib_a-strlen.o)
+                                                  build/kitronik_arcade_m4_J/hid.o
+                                                  build/kitronik_arcade_m4_J/fat.o
+                                                  build/kitronik_arcade_m4_J/cdc_enumerate.o
+system_init                                       build/kitronik_arcade_m4_J/init_samd51.o
+                                                  build/kitronik_arcade_m4_J/main.o
+timerHigh                                         build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/main.o
+                                                  build/kitronik_arcade_m4_J/fat.o
+timerTick                                         build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/cdc_enumerate.o
+transfer                                          build/kitronik_arcade_m4_J/screen.o
+try_read_cbw                                      build/kitronik_arcade_m4_J/msc.o
+u32tmp                                            build/kitronik_arcade_m4_J/sam_ba_monitor.o
+uart_basic_init                                   build/kitronik_arcade_m4_J/uart_driver.o
+                                                  build/kitronik_arcade_m4_J/usart_sam_ba.o
+uart_disable                                      build/kitronik_arcade_m4_J/uart_driver.o
+                                                  build/kitronik_arcade_m4_J/usart_sam_ba.o
+uart_drv_error_flag                               build/kitronik_arcade_m4_J/uart_driver.o
+uart_get_sercom_index                             build/kitronik_arcade_m4_J/uart_driver.o
+uart_read_buffer_polled                           build/kitronik_arcade_m4_J/uart_driver.o
+uart_read_byte                                    build/kitronik_arcade_m4_J/uart_driver.o
+                                                  build/kitronik_arcade_m4_J/usart_sam_ba.o
+uart_write_buffer_polled                          build/kitronik_arcade_m4_J/uart_driver.o
+uart_write_byte                                   build/kitronik_arcade_m4_J/uart_driver.o
+                                                  build/kitronik_arcade_m4_J/usart_sam_ba.o
+udd_ep_set_halt                                   build/kitronik_arcade_m4_J/msc.o
+udi_msc_csw_send                                  build/kitronik_arcade_m4_J/msc.o
+usart_close                                       build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_getc                                        build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_getdata                                     build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_getdata_xmd                                 build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_is_rx_ready                                 build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_open                                        build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_putc                                        build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_putdata                                     build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_putdata_xmd                                 build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_readc                                       build/kitronik_arcade_m4_J/usart_sam_ba.o
+usart_sharp_received                              build/kitronik_arcade_m4_J/usart_sam_ba.o
+usb_endpoint_table                                build/kitronik_arcade_m4_J/cdc_enumerate.o
+usb_init                                          build/kitronik_arcade_m4_J/cdc_enumerate.o
+                                                  build/kitronik_arcade_m4_J/main.o
+writeNum                                          build/kitronik_arcade_m4_J/utils.o
+                                                  build/kitronik_arcade_m4_J/sam_ba_monitor.o
+                                                  build/kitronik_arcade_m4_J/cdc_enumerate.o
+write_apa_byte                                    build/kitronik_arcade_m4_J/utils.o
+write_block                                       build/kitronik_arcade_m4_J/fat.o
+                                                  build/kitronik_arcade_m4_J/msc.o
