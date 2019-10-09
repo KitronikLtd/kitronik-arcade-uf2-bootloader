@@ -1,9 +1,11 @@
-#BETA - This readme may contain errors as we update it.
+# BETA - This readme may contain errors as we update it.
 
 # UF2 Bootloader
 
 This repository contains a bootloader varient for the Kitronik ARCADE board, derived from Atmel's SAM-BA,
 which in addition to the USB CDC (serial) protocol, also supports the USB MSC (mass storage).
+
+**Reprogramming the bootloader may render your device inoperable ('bricked')**
 
 ## UF2
 
