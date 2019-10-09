@@ -1,11 +1,9 @@
-# BETA - This readme may contain errors as we update it.
+#BETA - This readme may contain errors as we update it.
 
 # UF2 Bootloader
 
 This repository contains a bootloader varient for the Kitronik ARCADE board, derived from Atmel's SAM-BA,
 which in addition to the USB CDC (serial) protocol, also supports the USB MSC (mass storage).
-
-**Reprogramming the bootloader may render your device inoperable ('bricked')**
 
 ## UF2
 
@@ -108,22 +106,19 @@ You will need  an external `openocd` compatible
 debugger. IBDAP is cheap and seems to work just fine. Another option is to use
 Raspberry Pi and native bit-banging.
 
-`openocd` will flash 16k, meaning that on SAMD21 the beginning of user program (if any) will
-be overwritten with `0xff`. This also means that after fresh flashing of bootloader
-no double-tap reset is necessary, as the bootloader will not try to start application
-at `0xffffffff`.
+`openocd` will flash 16k
 
 ### Build commands
 
-The default board is `zero`. You can build a different one using:
+The default board is `kitronik_arcade_m4_J`. You can build a different one using:
 
 ```
-make BOARD=metro_m0
+make BOARD=kitronik_arcade_m4_J
 ```
 
 If you're working on different board, it's best to create `Makefile.local`
-with say `BOARD=metro` to change the default.
-The names `zero` and `metro` refer to subdirectories of `boards/`.
+with say `BOARD=kitronik_arcade_m4_J` to change the default.
+The names `kitronik_arcade_m4_J' refer to subdirectories of `boards/`.
 
 There are various targets:
 * `all` - just compile the board
@@ -143,8 +138,8 @@ There is a number of configuration parameters at the top of `uf2.h` file.
 Adjust them to your liking.
 
 By default, you cannot enable all the features, as the bootloader would exceed
-the 8k(SAMD21)/16k(SAMD51) allocated to it by Arduino etc. It will assert on startup that it's not bigger
-than 8k(SAMD21)/16k(SAMD51). Also, the linker script will not allow it.
+the 16k(SAMD51) allocated to it by Arduino etc. It will assert on startup that it's not bigger
+than 16k(SAMD51). Also, the linker script will not allow it.
 
 Three typical configurations are:
 
