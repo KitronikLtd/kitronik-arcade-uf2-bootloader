@@ -243,9 +243,6 @@ extern const uint8_t fileLogo[];
 extern const uint8_t pendriveLogo[];
 extern const uint8_t arrowLogo[];
 extern const uint8_t KitronikLogo[];
-extern const uint8_t LargeD[];
-extern const uint8_t LargeFive[];
-extern const uint8_t LargeOne[];
 
 static void printch(int x, int y, int col, const uint8_t *fnt) {
     for (int i = 0; i < 8; ++i) {
@@ -410,10 +407,11 @@ void draw_drag() {
     drawBar(52, 55, 8);
     drawBar(107, 14, 4);
 
-    print(40, 10, WHITE, "Kitronik");
-    print(40, 20, WHITE, "ARCADE");
-    print(40, 30, LIGHT_BLUE, "UF2 " UF2_VERSION_BASE);
-    print(5, 40, WHITE, "kitronik.co.uk/5311" );
+   //print4(40, 10, 1, "D51");
+   print(40, 10, WHITE, "Kitronik D51");
+   print(40, 20, WHITE, "Stock Code 5311");
+   print(40, 30, LIGHT_BLUE, "UF2 " UF2_VERSION_BASE);
+   print(5, 40, WHITE, "www.kitronik.co.uk" );
     print(3, 110, WHITE, "arcade.makecode.com");
 
 #define DRAG 70
@@ -422,11 +420,8 @@ void draw_drag() {
     printicon(DRAGX + 66, DRAG, WHITE, arrowLogo);
     printicon(DRAGX + 108, DRAG, WHITE, pendriveLogo);
     printicon(5,5,BLUE,KitronikLogo);
-	printicon(125,7,WHITE,LargeD);
-	printicon(133,8,WHITE,LargeFive);
-	printicon(143,8,WHITE,LargeOne);
     print(2, DRAG - 12, WHITE, "arcade.uf2");
-    print(95, DRAG - 12, WHITE, "KIT-ARCD");
+    print(95, DRAG - 12, WHITE, "ARCD-KIT");
 
     draw_screen();
 }
