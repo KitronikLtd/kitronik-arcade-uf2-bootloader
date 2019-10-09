@@ -1,10 +1,9 @@
+#BETA - This readme may contain errors as we update it.
+
 # UF2 Bootloader
 
-This repository contains a bootloader, derived from Atmel's SAM-BA,
-which in addition to the USB CDC (serial) protocol, also supports
-the USB MSC (mass storage).
-
-[![Build Status](https://travis-ci.org/Microsoft/uf2-samd21.svg?branch=master)](https://travis-ci.org/Microsoft/uf2-samd21)
+This repository contains a bootloader varient for the Kitronik ARCADE board, derived from Atmel's SAM-BA,
+which in addition to the USB CDC (serial) protocol, also supports the USB MSC (mass storage).
 
 ## UF2
 
@@ -37,10 +36,7 @@ a UF2 file is written and immediately write it to flash.
 * automatic reset after UF2 file is written
 
 ## Board identification
-
-Configuration files for board `foo` are in `boards/foo/board_config.h` and `board.mk`. You can
-build it with `make BOARD=foo`. You can also create `Makefile.user` file with `BOARD=foo`
-to change the default.
+This repository contains changes specific for the Kitronik ARCADE board.
 
 The board configuration specifies the USB vendor/product name and ID,
 as well as the volume label (main thing that the operating systems show).
@@ -84,22 +80,6 @@ sketch. You can copy&paste it into Arduino IDE and upload it to the device.
 
 ## Fuses
 
-### SAMD21
-
-The SAMD21 supports a `BOOTPROT` fuse, which write-protects the flash area of
-the bootloader. Changes to this fuse only take effect after device reset.
-
-OpenOCD exposes `at91samd bootloader` command to set this fuse. **This command is buggy.**
-It seems to reset both fuse words to `0xffffffff`, which prevents the device
-from operating correctly (it seems to reboot very frequently).
-In `scripts/fuses.tcl` there is an OpenOCD script
-which correctly sets the fuse. It's invoked by `dbgtool.js fuses`. It can be also
-used to reset the fuses to sane values - just look at the comment at the top.
-
-The bootloader update programs (both the `.uf2` file and the Arduino sketch)
-clear the `BOOTPROT` (i.e., set it to `0x7`) before trying to flash anything.
-After flashing is done, they set `BOOTPROT` to 8 kilobyte bootloader size (i.e, `0x2`).
-
 ### SAMD51
 
 The SAMD51s bootloader protection can be temporarily disabled through an NVM
@@ -122,13 +102,7 @@ to temporarily turn off the protection. In gdb the command is:
 
 Atmel Studio is not supported.
 
-You will need a board with `openocd` support.
-
-Arduino Zero (or M0 Pro) will work just fine as it has an integrated USB EDBG
-port. You need to connect both USB ports to your machine to debug - one is for
-flashing and getting logs, the other is for the exposed MSC interface.
-
-Otherwise, you can use other SAMD21 board and an external `openocd` compatible
+You will need  an external `openocd` compatible
 debugger. IBDAP is cheap and seems to work just fine. Another option is to use
 Raspberry Pi and native bit-banging.
 
@@ -186,7 +160,7 @@ then CDC might work and MSC will not work;
 otherwise, if you have no drivers, MSC will work, and CDC will work on Windows 10 only.
 Thus, it's best to set the USB ID to one for which there are no drivers.
 
-The bootloader sits at 0x00000000, and the application starts at 0x00002000 (SAMD21) or 0x00004000 (SAMD51).
+The bootloader sits at 0x00000000, and the application starts at  0x00004000 (SAMD51).
 
 ## Code of Conduct
 
