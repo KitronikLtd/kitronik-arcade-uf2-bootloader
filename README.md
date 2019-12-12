@@ -1,6 +1,4 @@
-#BETA - This readme may contain errors as we update it.
-
-# UF2 Bootloader
+# ARCADE by Kitronik UF2 Bootloader
 
 This repository contains a bootloader varient for the Kitronik ARCADE board, derived from Atmel's SAM-BA,
 which in addition to the USB CDC (serial) protocol, also supports the USB MSC (mass storage).
@@ -22,7 +20,6 @@ Thus, it's really easy for the microcontroller to recognize a block of
 a UF2 file is written and immediately write it to flash.
 
 * **UF2 specification repo:** https://github.com/Microsoft/uf2
-* [#DeskOfLadyada UF24U ! LIVE @adafruit #adafruit #programming](https://youtu.be/WxCuB6jxLs0)
 
 ## Features
 
