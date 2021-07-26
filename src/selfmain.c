@@ -61,7 +61,7 @@ void setBootProt(int v) {
         fuses[1] = 0xFFFFFC5D;
         #endif
         #ifdef SAMD51
-        fuses[0] = 0xF69A9239;
+        fuses[0] = 0XF69E9238;
         fuses[1] = 0xAEECFF80;
         #endif
     }
